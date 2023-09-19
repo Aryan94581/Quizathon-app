@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/076ba4ad79.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <!-- start Quiz button  -->
+    <div class="start_btn"><button>start quiz</button></div>
+    
+    <div class="info_box">
+        <div class="info_title">
+            <span>some rule of this quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1.rule no 1 <span>time 15 sec</span></div>
+            <div class="info">2.rule no 2</div>
+            <div class="info">3.rule no 3</div>
+            <div class="info">4.rule no 4</div>
+            <div class="info">5.rule no 5</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+    <!-- quiz box  -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Awasome Quix Application</div>
+            <div class="timer">
+                <div class="time_text">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="quiz_text">
+                <span>Question one</span>
+            </div>
+            <div class="option_list">
+                <!-- <div class="option">
+                    <span>option one</span>
+                    <div class="icon tick"><i class="fas fa-check"></i>
+                    </div>
+                </div>
+                <div class="option">
+                    <span>option two</span>
+                    <div class="icon cross"><i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <div class="option">
+                    <span>option three</span>
+                </div> 
+                <div class="option">
+                    <span>option four</span>
+                </div> -->
+            </div>
+        </section>
+        <!-- quiz_box footer  -->
+        <footer>
+            <div class="total_que">
+                <!-- <span><p>2</p>of <p>5</p>Question</span> -->
+            </div>
+            <button class="next_btn">next Que</button>
+        </footer>
+    </div>
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">you've completed the Quiz!</div>
+        <div class="score_text">
+            <span>and sorry, you got only <p>2</p> out of <p>5</p></span>
+        </div>
+        <div class="buttons">
+            <button class="restart">replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    
+    
+    <script src="index.js"></script>
+    <script src="question.js"></script>
+</body>
+</html>
